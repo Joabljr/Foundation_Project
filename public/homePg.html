@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./homePg.css" />
+    <meta
+      content="width=device-width, initial-scale=1.0, justify-content: center"
+    />
+  </head>
+
+  <body>
+    <img src="./Images/City2_Arknights.jpg" id="background" />
+    <img id="banner" src="../Images/VigiloGBL_Banner.png" />
+  </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="filterButtons">
+      <button id="All" class="button" onclick = 'getCharacters()'>All</button>
+      <button id="Guard" class="button" onclick = 'getGuards()'>Guard</button>
+      <button id="Caster" class="button" onclick = 'getCasters()'>Caster</button>
+      <button id="Defender" class="button" onclick = 'getDefenders()'>Defender</button>
+      <button id="Sniper" class="button" onclick = 'getSnipers()'>Sniper</button>
+      <button id="Specialist" class="button" onclick = 'getSpecialists()'>Specialist</button>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <h1>Rate This Game To Send Feed Back!</h1>
+    <div class="stars">
+      <a><img id="icon" src="Images\FEater_skill_icon_skchr_panda_1.png" /></a>
+      <a><img id="icon" src="Images\FEater_skill_icon_skchr_panda_1.png" /></a>
+      <a><img id="icon" src="Images\FEater_skill_icon_skchr_panda_1.png" /></a>
+      <a><img id="icon" src="Images\FEater_skill_icon_skchr_panda_1.png" /></a>
+      <a><img id="icon" src="Images\FEater_skill_icon_skchr_panda_1.png" /></a>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div id="displayContent"></div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="homePg.js"></script>
+  </body>
+</html>
